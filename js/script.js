@@ -1,0 +1,9 @@
+var nomeUtente = prompt("scrivi il tuo nome");
+document.getElementById("name").innerHTML = nomeUtente;
+var cognomeUtente = prompt("scrivi il tuo cognome");
+document.getElementById("surname").innerHTML = cognomeUtente;
+var coloreUtente = prompt("scrivi il tuo colore preferito");
+document.getElementById("color").innerHTML = coloreUtente;
+var n = 21;
+var p = nomeUtente + cognomeUtente + coloreUtente + n;
+document.getElementById("password").innerHTML = p;
